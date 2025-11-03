@@ -8,6 +8,11 @@ project:
   authors: [Ligo Scientific Collaboration (LSC) and Aditya Mangalampalli]
   github: https://github.com/UCB-stat-159-f25/hw3-amangalampalli
   # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+      title: Home
+    - file: LOSC_Event_tutorial.ipynb 
+      title: Notebook
 site:
   template: book-theme
   options:
@@ -15,8 +20,3 @@ site:
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
-toc:
-  - file: README.md
-    title: Home
-  - file: LOSC_Event_tutorial.ipynb 
-    title: Notebook
