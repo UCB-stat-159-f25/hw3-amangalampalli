@@ -1,0 +1,22 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: a1a5bb24-6919-4fad-a07f-55473da6187e
+  title: Stat 159 - HW #3
+  # description:
+  # keywords: []
+  authors: [Ligo Scientific Collaboration (LSC) and Aditya Mangalampalli]
+  github: https://github.com/UCB-stat-159-f25/hw3-amangalampalli
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  options:
+    tabs: true  
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+toc:
+  - file: README.md
+    title: Home
+  - file: LOSC_Event_tutorial.ipynb 
+    title: Notebook
