@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+description = "A Python library for Ligo Tools"
+requires-python = ">=3.9"
+
+authors = [
+  { name = "LIGO Scientific Collaboration (LSC)" },
+  { name = "Aditya Mangalampalli" },
+]
+
+license = { text = "BSD-3-Clause" }
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "h5py",
+  "matplotlib",
+  "ipykernel",
+]
+
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["ligotools"]
+license-files = ["LICEN[CS]E*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "ligotools.__version__" }
